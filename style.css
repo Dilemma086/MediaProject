@@ -1,0 +1,69 @@
+body{
+  background-color: #000;
+}
+.imgBlockFlex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgBlockFlex img{
+    width: 30%;
+    margin: auto;
+  }
+  .headDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .btn{
+   
+    margin: 50px auto;
+    text-align: center;
+  }
+  .callBackForm {
+    color: white;
+    background-color: #c76085;
+    border-radius: 8px;
+    
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    
+}
+.callBackForm:hover{
+  background-color: #c0396a;
+}
+.CallDiv{
+  position: absolute;
+  display: flex;
+  top: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 700px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #000;
+  color: azure;
+}  
+.leftBlock{
+  width: 50%;
+  background-color: #131619;
+  border-radius: 10px;
+}
+.leftBlock p{
+  text-align: center;
+}
+.rightBlock{
+  width: 50%;
+  background-color: #060708;
+  border-radius: 10px;
+}
