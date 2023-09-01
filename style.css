@@ -58,12 +58,43 @@ body{
   width: 50%;
   background-color: #131619;
   border-radius: 10px;
-}
-.leftBlock p{
   text-align: center;
 }
+.leftBlock p{
+  display: flex;
+  margin-left: 60px;
+}
+.leftBlock a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.leftBlock img{
+  width: 165px;
+  margin-top: 140px;
+}
+.leftBlock>p>img{
+  width: 25px;
+  margin: -2px 10px;
+}
+
 .rightBlock{
   width: 50%;
   background-color: #060708;
   border-radius: 10px;
+  background-image: url(/images/BackgrModal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 107%;
+}
+.closeDivMmoda{
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 25px;
+  cursor: pointer;
+}
+.closeDivMmoda img{
+  width: 100%;
+  filter: invert(1);
 }

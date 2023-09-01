@@ -20,11 +20,15 @@ callBackForm.addEventListener('click', () => {
     CallDiv.classList.add('CallDiv')
     body.append(CallDiv)
     CallDiv.innerHTML = `
+        <span class="closeDivMmoda"><img src="/images/close.png"></span>
         <div class="leftBlock">
-            <p>Заказать звонок</p>
+            <img src="/images/logo.png">
+            <h2>Сделать заказ</h2>
+            <p><img src="/images/whatsapp.png"><a href="https://api.whatsapp.com/send/?phone=79616128682&text&type=phone_number&app_absent=0">Перейти в чат WhatsApp</a></p>
+            <p><img src="/images/telegram.png"><a href="https://t.me/MediaProjectspb">Перейти в чат Telegram</a></p>
         </div>
         <div class="rightBlock">
-            <img src=""/>
+            
         </div>
 
     `
