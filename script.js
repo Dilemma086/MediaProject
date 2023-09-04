@@ -17,6 +17,7 @@ const callBackForm = document.querySelector('.callBackForm')
 
 callBackForm.addEventListener('click', () => {
     const CallDiv = document.createElement('div')
+    
     CallDiv.classList.add('CallDiv')
     body.append(CallDiv)
     CallDiv.innerHTML = `
@@ -32,5 +33,10 @@ callBackForm.addEventListener('click', () => {
         </div>
 
     `
+    const closeDivMmoda = document.querySelector('.closeDivMmoda')
+    closeDivMmoda.addEventListener('click', () => {
+        CallDiv.remove()
+    })
+
 })
 
